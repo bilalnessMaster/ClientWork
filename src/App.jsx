@@ -42,8 +42,8 @@ requestAnimationFrame(raf);
     <Behind />
     <Photos />
     <Results/>
-    <About />
-    <Footer /> 
+    {/* <About />
+    <Footer />  */}
     
 
     
