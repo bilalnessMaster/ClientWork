@@ -13,11 +13,11 @@ const Footer = () => {
           تواصل معنا
         </h1>
         <div className="flex items-center justify-center text-7xl gap-12">
-          <a href="">
+          <a href="https://www.instagram.com/abderrahim_ibrahim/profilecard/?igsh=bDM1Mnh4NTl4Mzhh" target="blank">
             {" "}
             <i className="ri-instagram-line text-red-500"></i>
           </a>
-          <a href=" ">
+          <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fabderrahim-ait-hamou&e=AT106ZeqHXdlPEU4bTRJdwxcGEzhhHVw7-gpYye2-SRm5pRB55-i4ID6xs-f2EIevIchpiG3JRIoKUHStVi5uQZtY9EC8BIS" target="blank">
             {" "}
             <i className="ri-linkedin-line text-sky-500"></i>
           </a>
