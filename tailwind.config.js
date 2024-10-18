@@ -12,6 +12,7 @@ export default {
       fontFamily : {
         'Almarai' : ['Almarai', 'sans-serif'],
         'baca'  : ['Bacasime Antique', 'serif'],
+    
       }
     },
   },
