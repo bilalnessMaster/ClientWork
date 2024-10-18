@@ -88,10 +88,15 @@ const Hero = () => {
       </div>
       <div className="lg:flex hidden absolute w-full top-64 left-1/3 overflow-hidden font-medium ">
         <motion.h1
-          variants={container}
-          initial="hidden"
-          animate="visible"
-          className=" md:text-7xl lg:text-8xl xl:text-[120px]  2xl:text-[150px]   font-baca overflow-hidden  mix-blend-dark w-[600px] text-start"
+          initial={{
+            x : -100,
+            opacity : 0
+          }}
+          animate={{
+            x : 10,
+            opacity : 1
+          }}
+          className=" md:text-7xl lg:text-8xl xl:text-[120px]  2xl:text-[150px]   font-baca w-[600px] text-start"
         >
           Abderrahim Ibrahim
           
