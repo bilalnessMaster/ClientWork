@@ -14,7 +14,7 @@ const Hero = () => {
       <img src={prof} className="h-80 rounded-full" alt="" />
       <h1 className="font-sans text-center text-5xl font-bold uppercase">abderrahim 
       Ibrahim</h1>
-      <p className="text-2xl text-center  w-[400px] lg:w-[700px] font-Almarai">
+      <p className="text-2xl text-center  w-[390px] lg:w-[700px] font-Almarai">
       "أساعدك في تسويق وتعزيز مشروعك الرياضي على مختلف وسائل التواصل الاجتماعي من خلال تطوير استراتيجيات فعالة تهدف إلى زيادة الوعي بالعلامة التجارية، جذب المتابعين، والتفاعل مع جمهورك المستهدف."
 
       </p>
