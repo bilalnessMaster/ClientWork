@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 
 import Wrapper from './Wrapper';
+import Image from './Image';
 
 const data = [
   {id : 1 , img : '/40.jpeg'},
@@ -26,8 +27,7 @@ const Results = () => {
       <div className='grid lg:grid-cols-4  
       grid-cols-2 gap-2 items-center justify-center mt-28 px-1'>
       {data.map((item) => (
-          
-           <img src={item.img} className='rounded-xl' alt="" />
+          <Image img={item.img} />
      
         ))}
       </div>
