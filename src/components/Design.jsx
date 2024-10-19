@@ -1,6 +1,7 @@
 import React from 'react'
 import Wrapper from './Wrapper'
 import { img } from 'framer-motion/client'
+import Image from './Image'
 const Data = [
     {id : 1, img : "/1.jpg"},
     {id : 2, img : "/2.jpg"},
@@ -29,7 +30,7 @@ const Design = () => {
             <div className='grid grid-cols-1 gap-2 items-start justify-start'>
                 {
                     Data.slice(0,4).map((item) => (
-                            <img src={item.img} key={item.id} alt="" />
+                        <Image key={item.id} img={item.img} />
                     ))
                 }
 
@@ -37,7 +38,7 @@ const Design = () => {
             <div className='grid grid-cols-1 gap-2 '>
             {
                     Data.slice(4,8).map((item) => (
-                            <img src={item.img} key={item.id} alt="" />
+                        <Image key={item.id} img={item.img} />
                     ))
                 }
             </div>
